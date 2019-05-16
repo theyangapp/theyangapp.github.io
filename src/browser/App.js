@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import {View} from 'components/';
+import styled, { withTheme } from 'styled-components'
+import {View} from 'components';
 
-export default class App extends Component {
+const Container = styled(View)`
+  flex: 1;
+  background-color: ${({theme}) => theme.red(1)};
+`
+
+class App extends Component {
   render() {
     return (
-      <View>
-      </View>
+      <Container>
+        hi
+      </Container>
     );
   }
 }
 
+export default withTheme(App)
