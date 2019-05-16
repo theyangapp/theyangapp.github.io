@@ -1,6 +1,6 @@
 import { persistReducer, createTransform } from 'redux-persist';
 import storage from 'redux-persist/lib/storage'; // defaults to localStorage for web and AsyncStorage for react-native
-
+import collections from 'utils/themes';
 
 const transform = createTransform(
   (inboundState, key) => {
@@ -8,6 +8,10 @@ const transform = createTransform(
   },
   (outboundState, key) => {
     switch (key) {    
+      case 'settings':
+        return Object.assign({}, outboundState, {
+          theme: collections[outboundState.theme.id],
+        });
       default:
         return outboundState;
     }
