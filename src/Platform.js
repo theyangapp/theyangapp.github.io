@@ -1,6 +1,6 @@
 import React from "react";
-import Browser from "./browser/App";
-import Mobile from "./mobile/App";
+import Browser from "./browser/Root";
+import Mobile from "./mobile/Root";
 export default class Platform extends React.Component {
   state = {
     width: window.innerWidth
@@ -17,7 +17,7 @@ export default class Platform extends React.Component {
 
   render() {
     const { width } = this.state;
-    const isMobile = width <= 500;
+    const isMobile = width <= 900;
     return isMobile ? <Mobile /> : <Browser />;
   }
 }

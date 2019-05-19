@@ -1,8 +1,8 @@
-import { combineReducers } from 'redux';
-import * as ActionTypes from './actionTypes';
-import collections from 'utils/themes';
+import { combineReducers } from "redux";
+import * as ActionTypes from "./actionTypes";
+import collections from "utils/themes";
 
-function theme(state = collections[0], action) {
+function theme(state = collections[1], action) {
   switch (action.type) {
     case ActionTypes.UPDATE_THEME:
       return collections[action.theme];
