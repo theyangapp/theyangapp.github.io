@@ -1,8 +1,8 @@
 {
-  "name": "camp-tracker-web",
+  "name": "yang-app-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yangapp.github.io",
+  "homepage": "https://theyangapp.github.io",
   "dependencies": {
     "axios": "^0.18.0",
     "connected-react-router": "^6.4.0",
