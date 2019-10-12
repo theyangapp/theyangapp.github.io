@@ -42,7 +42,7 @@ class Header extends PureComponent {
         <Link style={{ textDecoration: "none" }} to="/">
           <LogoContainer>
             <Logo src={logo} />
-            <LogoText>Camp Tracker</LogoText>
+            <LogoText>The Yang App</LogoText>
           </LogoContainer>
         </Link>
         {/* <Flex /> */}

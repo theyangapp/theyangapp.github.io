@@ -52,16 +52,19 @@ class Landing extends Component {
           <LeftView>
             <Title>
               A <BoldText>ridiculously easy</BoldText> way <br />
-              to snatch <br />
+              to follow <br />
               <RedText>
-                {" "}
-                last
-                <br /> minute campsites
+                President
+                <br />
+                Andrew
+                <br />
+                Yang
+                <br />
               </RedText>
             </Title>
             <a
               href={
-                "https://itunes.apple.com/us/app/rv-camp-tracker/id1422499999"
+                "https://apps.apple.com/us/app/yang-humanity-first/id1477732890"
               }
               target={"_blank"}
             >
@@ -69,7 +72,7 @@ class Landing extends Component {
             </a>
             <a
               href={
-                "https://play.google.com/store/apps/details?id=com.jonwu.camptracker"
+                "https://play.google.com/store/apps/details?id=com.jonwu.yang"
               }
               target={"_blank"}
             >

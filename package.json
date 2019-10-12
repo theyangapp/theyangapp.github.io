@@ -2,11 +2,12 @@
   "name": "camp-tracker-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://camptracker.github.io",
+  "homepage": "https://yangapp.github.io",
   "dependencies": {
     "axios": "^0.18.0",
     "connected-react-router": "^6.4.0",
     "react": "^16.8.6",
+    "react-device-detect": "^1.9.10",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.3",
     "react-router": "^5.0.0",
